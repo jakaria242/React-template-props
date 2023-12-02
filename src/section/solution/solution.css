@@ -1,0 +1,119 @@
+
+
+#solution{
+    padding: 120px 0;
+}
+.solution_heading{
+    display: flex;
+    align-items: center;
+    column-gap: 150px;
+    margin-bottom: 80px;
+}
+.solution_heading .section_heading{
+    width: 564px;
+}
+.solution_heading p{
+    width: 696px;
+}
+.solution_wrapper{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.solution_item{
+    width: 450px;
+    border: 1px solid rgba(132, 84, 245, 0.4);
+    border-radius: 30px;
+    padding: 24px 24px 48px 24px;
+    transition: all linear .3s;
+}
+ .solutio_heading{
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+ }  
+.solutio_icon{
+    width: 70px;
+    height: 70px;
+    background: rgba(254, 196, 95, 0.150);
+    border-radius: 14px;
+}
+.solutio_icon i{
+    width: 70px;
+    height: 70px;
+    font-size: 27px;
+    color: #FEC35F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all linear .3s;
+}
+.solution_item:nth-child(2) .solutio_icon{
+    background: rgba(220, 219, 217, 0.413);
+    
+}
+.solution_item:nth-child(2) .solutio_icon i{
+    color: #bebec0;
+}
+.solution_item:nth-child(3) .solutio_icon i{
+    color: #74BA52;
+}
+.solution_item:nth-child(3) .solutio_icon{
+    background: rgba(117, 186, 82, 0.150);
+    
+}
+.solution_item:nth-child(4) .solutio_icon i{
+    color: #6078FF;
+}
+.solution_item:nth-child(4) .solutio_icon{
+        background-color: rgba(96, 120, 255, 0.150);   
+}
+.solution_item:nth-child(5) .solutio_icon i{
+    color: #F27860;
+}
+.solution_item:nth-child(5) .solutio_icon{
+        background-color: rgba(242, 120, 96, 0.150);   
+}
+.solution_item:nth-child(6) .solutio_icon i{
+    color: #0D87E7;
+}
+.solution_item:nth-child(6) .solutio_icon{
+        background-color: rgba(13, 137, 231, 0.150);   
+}
+.solutio_heading h3{
+    color: var(--text_color);
+    font-size: 28px;
+    font-weight:700;
+    font-family:  var(--opensans_font);
+    line-height: 140%;
+    transition: all linear .3s;
+}
+.solution_item .peragraph{
+    line-height: 180%;
+    padding: 16px 0 24px 0;
+    transition: all linear .3s;
+}
+.solution_item a{
+    color: var(--text_color);
+    font-size: 20px;
+    font-weight:var(--font_s_width);
+    font-family:  var(--nunito_font);
+    line-height: 100%;
+    transition: all linear .3s;
+}
+.solution_item:hover{
+    background: var(--hover_color);
+}
+.solution_item:hover .solutio_heading h3{
+    color: #FCFCFE;
+}
+.solution_item:hover .peragraph{
+    color: #FCFCFE;
+}
+.solution_item:hover a{
+    color: #FCFCFE;
+}
+.solution_item:hover .solutio_icon i{
+    color: #FCFCFE;
+}

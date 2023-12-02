@@ -1,0 +1,79 @@
+#counter{
+    padding: 65px 0 75px 0;
+}
+.counter_main{
+    display: flex;
+    column-gap: 228px;
+    align-items: center;
+}
+.counter_icon{
+    display: flex;
+    align-items: center;
+    column-gap: 28px;
+    padding-left: 37px;
+}
+.counter_play_btn{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: var(--orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.counter_play_btn::after{
+    position: absolute;
+    content: url(../images/counter_shape.png);
+    top: -24px;
+    left: -24px;
+}
+.counter_play_btn i{
+    font-size: 45px;
+    color: var(--white);
+}
+.counter_icon h3{
+    font-size: 24px;
+    font-weight: var(--font_s_width);
+    font-family: var(--nunito_font);
+    line-height: 120%;
+    color: #545A64;
+}
+.counter_wrapper{
+    display: flex;
+    align-items: center;
+    column-gap: 127px;
+}
+.counter_item{
+    position: relative;
+}
+.counter_item::after{
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100px;
+    background: #29313D;
+    opacity: 0.2;
+    top: 50%;
+    right: -60px;
+    transform: translate(-50%,-50%);
+}
+.counter_item:last-child::after{
+    content: unset;
+}
+.counter_item h3{
+    font-size: 64px;
+    font-weight: var(--font_s_width);
+    font-family: var(--opensans_font);
+    line-height: 140%;
+    color: var(--text_color);
+}
+.counter_item p{
+    font-size: var(--font_s_size);
+    font-weight: var(--font_r_width);
+    font-family: var(--nunito_font);
+    line-height: 180%;
+    color: var(--text_color);
+    width: 185px;
+    padding-top: 4px;
+}

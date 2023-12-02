@@ -1,0 +1,131 @@
+
+
+
+#plan{
+    padding: 120px 0 164px 0;
+}
+.plan_heading{
+    width: 689px;
+    text-align: center;
+    margin: 0 auto;
+}
+.plan_swape{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.swape_item{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: var(--nunito_font);
+    color: var(--text_color);
+    line-height: 100%;
+}
+.swpe_btn{
+    width: 70px;
+    height: 40px;
+    border-radius: 50px;
+    background: var(--hover_color);
+    position: relative;
+}
+.swpe_btn::after{
+    position: absolute;
+    content: "";
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--white);
+    top: 50%;
+    left: 7px;
+    transform: translateY(-50%);
+}
+.plan_wrapper{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.plan_item{
+    width: 450px;
+    border-radius: 30px;
+    padding: 48px;
+    background: transparent;
+    margin-top: 160px;
+    transition: all linear .3s;
+}
+.plan_item .package{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--opensans_font);
+    line-height: 140%;
+    transition: all linear .3s;
+}
+.plan_package{
+    margin: 48px 0 68px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.package_deatils{
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+}
+.package_deatils li{
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+.package_deatils li span{
+    font-size: 20px;
+    font-weight: var(--font_r_width);
+    font-family: var(--nunito_font);
+    line-height: 120%;
+    color: #545A64;
+    transition: all linear .3s;
+}
+.package_deatils li{
+    font-size: 20px;
+    color: #545A64;
+    transition: all linear .3s;
+}
+.package_value{
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+}
+.package_value li{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--nunito_font);
+    line-height: 120%;
+    color: var(--hover_color);
+    text-align: right;
+    transition: all linear .3s;
+}
+.plan_btn .common_btn{
+    background: rgba(132, 84, 245, 0.133);
+    color: var(--hover_color);
+    transition: all linear .3s;
+}
+.plan_item:hover{
+    background: #181059;
+    margin-top: 80px;
+}
+.plan_item:hover .package{
+    color: #F8FAFC;
+}
+.plan_item:hover .package_deatils li span{
+    color: #F8FAFC;
+}
+.plan_item:hover .package_deatils li{
+    color: #F8FAFC;
+}
+.plan_item:hover .package_value li{
+    color: #F8FAFC;
+}
+.plan_item:hover .plan_btn .common_btn{
+    color: #F8FAFC;
+    background: var(--hover_color);
+}

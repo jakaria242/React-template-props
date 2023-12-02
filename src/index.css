@@ -1,0 +1,78 @@
+:root{
+    --text_color: #29313D;
+    --hover_color :#8454F5;
+    --orange: #FEC35F;
+    --white :#fff;
+    --nunito_font: 'Nunito', sans-serif;
+    --opensans_font: 'Open Sans', sans-serif;
+    --font_r_width: 400;
+    --font_s_width: 600;
+    --font_s_size: 18px;
+    --font_b_size: 56px;
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    outline: 0;
+    text-transform: capitalize;
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+.container{
+    width: 1410px;
+    margin: 0 auto;
+}
+.common_btn{
+    background: transparent;
+    padding: 14px 28px;
+    background: var(--hover_color);
+    border-radius: 18px;
+    color: var(--white);
+    font-size: var(--font_s_size);
+    font-weight: var(--font_s_width);
+    font-family: var(--nunito_font);
+    transition: all linear .4s;
+    line-height: 200%;
+}
+.peragraph{
+    color: var(--text_color);
+    font-size: var(--font_s_size);
+    font-weight: var(--font_r_width);
+    font-family: var(--nunito_font);
+    line-height: 200%;
+}
+.peragraph.effect{
+    padding-left: 20px;
+    position: relative;
+}
+.peragraph.effect::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 6px;
+    background: var(--orange);
+}
+.section_heading{
+    color: var(--text_color);
+    font-size: var(--font_b_size);
+    font-weight: 700;
+    font-family: var(--opensans_font);
+    line-height: 140%;
+}

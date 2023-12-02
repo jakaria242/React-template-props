@@ -1,0 +1,58 @@
+#banner{
+    padding: 224px 0 70px 0;
+}
+.banner_wrapper{
+    display: flex;
+    align-items: center;
+}
+.banner_content h1{
+    color: var(--text_color);
+    font-size: 64px;
+    font-weight:700;
+    font-family:  var(--opensans_font);
+    line-height: 140%;
+    padding-bottom: 40px;
+    width: 720px;
+}
+.banner_content .peragraph{
+    width: 516px;
+}
+.banner_content form{
+    margin-top: 48px;
+    width: 630px;
+    border-radius: 24px;
+    background: rgba(132, 85, 244, 0.09);
+    padding: 37px  28px;
+    position: relative;
+}
+.banner_content form input{
+    width: 319px;
+    border: none;
+    background: transparent;
+    outline: none;
+    color: var(--text_color);
+    font-size: var(--font_s_size);
+    font-weight: var(--font_r_width);
+    font-family: var(--nunito_font);
+    line-height: 200%;
+}
+.banner_content form button{
+    border: none;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.banner_img{
+    width: 689px;
+    height: 598px;
+    overflow: hidden;
+    position: relative;
+    left: 123px;
+}
+.banner_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
